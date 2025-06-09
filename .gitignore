@@ -1,0 +1,19 @@
+/target
+.idea
+pgdata
+esdata
+
+# Tarpaulin Files
+*.profraw
+tarpaulin-report.html
+cobertura.xml
+
+Dockerrun.aws.json
+deploy.zip
+.env
+.ebextensions/02_waf.config
+.elasticbeanstalk/config.yml
+.ebextensions/02_cloudwatch.config
+.ebextensions/04_tags.config
+.elasticbeanstalk/saved_configs
+bin
