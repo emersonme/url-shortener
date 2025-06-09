@@ -35,6 +35,11 @@ cargo build
 docker compose up -d
 ```
 
+3. **Execute as migrations:**
+```bash
+refinery migrate -e DB_HOST -p ./migrations
+```
+
 ## 🏃‍♂️ Executando
 
 ```bash
